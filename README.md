@@ -19,5 +19,5 @@ Pose Detect -> getDegree : 포즈 인식해서 요소들의 각도 계산
 이미지 가져오고 Detection Image 버튼 누르면 올려놓은 예제에서는 오른쪽 어깨 - 오른쪽 엉덩이 - 오른쪽 무릎 각도 계산되어 출력
 
 ```java
-                                                double rightHipAngle = getAngle(rightShoulder, rightHip, rightKnee);
+     double rightHipAngle = getAngle(rightShoulder, rightHip, rightKnee);
 ```
